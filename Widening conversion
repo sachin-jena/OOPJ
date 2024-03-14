@@ -1,0 +1,16 @@
+Q1) Write a program that demonstrates widening conversion from int to double and prints the result.
+
+public class WideningConversion {
+    public static void main(String[] args) {
+        // Define an integer variable
+        int intValue = 10;
+        
+        // Widening conversion from int to double
+        double doubleValue = intValue;
+        
+        // Print the result
+        System.out.println("Widening conversion from int to double:");
+        System.out.println("Original int value: " + intValue);
+        System.out.println("Converted double value: " + doubleValue);
+    }
+}
