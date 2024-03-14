@@ -1,0 +1,28 @@
+Q$) ) Write a Program that demonstrates widening conversion from int to (double,float, boolean, string) and
+prints the result.
+
+public class WideningConversionExample {
+    public static void main(String[] args) {
+        // Define an integer variable
+        int intValue = 42;
+        
+        // Widening conversion to double
+        double doubleValue = intValue;
+        
+        // Widening conversion to float
+        float floatValue = intValue;
+        
+        // Widening conversion to boolean
+        boolean booleanValue = intValue != 0;
+        
+        // Widening conversion to string
+        String stringValue = String.valueOf(intValue);
+        
+        // Print the results
+        System.out.println("Original int value: " + intValue);
+        System.out.println("Widening conversion to double: " + doubleValue);
+        System.out.println("Widening conversion to float: " + floatValue);
+        System.out.println("Widening conversion to boolean: " + booleanValue);
+        System.out.println("Widening conversion to string: " + stringValue);
+    }
+}
