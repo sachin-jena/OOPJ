@@ -1,0 +1,15 @@
+Q2) Create a program that demonstrates narrowing conversion from double to int and prints the result
+
+public class NarrowingConversionExample {
+    public static void main(String[] args) {
+        // Define a double variable
+        double doubleValue = 42.75;
+        
+        // Perform narrowing conversion from double to int
+        int intValue = (int) doubleValue; // Narrowing conversion
+        
+        // Print the result
+        System.out.println("Original double value: " + doubleValue);
+        System.out.println("Converted int value: " + intValue);
+    }
+}
