@@ -1,0 +1,21 @@
+Q#) Write a program that performs arithmetic operations involving different data types (int, double, float)
+and observes how Java handles widening conversions automatically.
+
+public class ArithmeticOperations {
+    public static void main(String[] args) {
+        // Define variables of different data types
+        int intValue = 5;
+        double doubleValue = 2.5;
+        float floatValue = 1.5f;
+        
+        // Perform arithmetic operations involving different data types
+        double result1 = intValue + doubleValue; // int + double, result will be double
+        float result2 = floatValue * intValue;   // float * int, result will be float
+        double result3 = doubleValue / floatValue; // double / float, result will be double
+        
+        // Print the results
+        System.out.println("Result 1: " + result1); // Widening conversion of int to double
+        System.out.println("Result 2: " + result2); // Widening conversion of int to float
+        System.out.println("Result 3: " + result3); // Widening conversion of float to double
+    }
+}
